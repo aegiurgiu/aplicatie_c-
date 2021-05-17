@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueMed", "BlueMed.csproj", "{966871E5-5AF0-453F-95AF-B1F05834E9A8}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BlueMedSetup", "..\BlueMedSetup\BlueMedSetup.vdproj", "{405AD616-2A5B-4659-806E-A8F5177FD3E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{966871E5-5AF0-453F-95AF-B1F05834E9A8}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{966871E5-5AF0-453F-95AF-B1F05834E9A8}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{966871E5-5AF0-453F-95AF-B1F05834E9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{966871E5-5AF0-453F-95AF-B1F05834E9A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{405AD616-2A5B-4659-806E-A8F5177FD3E9}.Debug|Any CPU.ActiveCfg = Debug
+		{405AD616-2A5B-4659-806E-A8F5177FD3E9}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E44D3AD4-7E32-42B8-88F6-1439C157B561}
+	EndGlobalSection
+EndGlobal
